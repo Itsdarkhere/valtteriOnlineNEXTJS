@@ -26,6 +26,7 @@
     text-align: center;
     transition-duration: 0.1s;
     transform: translateY(50%);
+    text-decoration: none;
 }
 .project_card:hover {
     background-color: #1f1f30;
