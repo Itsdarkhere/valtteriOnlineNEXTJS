@@ -1,0 +1,47 @@
+.wh_card {
+    opacity: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.wh_card_top {
+    margin-bottom: 100px;
+}
+.wh_card_img {
+    max-width: 273px;
+    width: 90%;
+    height: auto;
+    margin-right: 63px;
+}
+.wh_card_description {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Poppins";
+    color: white;
+}
+.wh_animation {
+    animation: whAnimation 1s forwards;
+}
+@keyframes whAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@media screen and (max-width: 991px) {
+    .wh_card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .wh_card_img {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .h2 {
+        text-align: center;
+    }
+}

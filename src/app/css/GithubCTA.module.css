@@ -1,0 +1,61 @@
+.gh_cta {
+    padding: 140px 85px;
+    border-radius: 24px;
+    background-color: #292941;
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gh_cta_grid {
+    opacity: 0;
+    display: grid;
+    gap: 60px;
+    -ms-grid-columns: 1fr 0.5fr;
+    grid-template-columns: 1fr 0.5fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+.gh_text_container {
+    text-align: left;
+}
+.gh_cta_grid_right {
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.gh_cta_animation {
+    animation: githubAnimation 1s forwards;
+}
+@keyframes githubAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 991px) {
+    .gh_cta {
+        padding: 80px 40px;
+    }
+    .gh_cta_grid {
+        grid-template-columns: 1fr;
+    }
+    .gh_cta_grid_right {
+        justify-content: center;
+    }
+    .gh_text_container {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 479px) {
+    .gh_cta {
+        padding: 60px 25px;
+    }
+}
