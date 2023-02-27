@@ -13,7 +13,7 @@ body {
   overflow-x: hidden;
 }
 .font_one {
-  font-family: "Poppins";
+  font-family: "Inconsolata";
 }
 .cl {
   background: linear-gradient(270deg, rgba(117, 127, 154, 0.27) 0%, rgba(0, 0, 0, 0) 93.96%);
@@ -41,7 +41,7 @@ body {
   flex-direction: row;
   align-items: center;
   color: white;
-  font-family: "Poppins";
+  font-family: "Inconsolata";
 }
 .header_img {
   padding-right: 10px;
@@ -82,7 +82,7 @@ body {
   text-align: center;
 }
 .h2 {
-  font-family: "Poppins";
+  font-family: "Inconsolata";
   color: white;
   font-size: 35px;
   line-height: 45px;
@@ -90,7 +90,7 @@ body {
   margin-bottom: 15px;
 }
 .h3 {
-  font-family: "Poppins";
+  font-family: "Inconsolata";
   margin-top: 0px;
   margin-bottom: 15px;
   color: white;
@@ -100,7 +100,7 @@ body {
   text-decoration: none;
 }
 .p {
-  font-family: "Poppins";
+  font-family: "Inconsolata";
   margin-bottom: 10px;
   font-size: 18px;
   line-height: 30px;
