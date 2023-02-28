@@ -19,11 +19,11 @@ export default function Recommendation() {
             <div ref={ref} className={styles.recommendation_text_div}>
                 <h3 className='h3' style={{fontSize: "32px"}}>Chiara Wilden</h3>
                 <p className='p' style={{fontWeight: "bold", marginBottom: "42px"}}>
-                    "It was an absolute pleasure working with Valtteri. Among his greatest strengths are creative 
+                    It was an absolute pleasure working with Valtteri. Among his greatest strengths are creative 
                     problem solving and execution. He is relentlessly hardworking, while also remaining reasonable in 
                     his expectation of the team. As a leader, he posesses the rare, but highly admirable qualities of 
                     humbleness, quite confidence and authenticity. Communicating with him is both easy and enjoyable! 
-                    Valtteri is without a doubt a highly valuable asset to any team."
+                    Valtteri is without a doubt a highly valuable asset to any team.
                 </p>
             </div>
         </div>

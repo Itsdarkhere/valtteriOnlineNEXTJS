@@ -11,7 +11,7 @@ export default function HeroSection() {
         <div className='container_default'>
             <div className={styles.left_text}>
                 <h1 className={styles.hero_h}>
-                    I'M<br/>
+                    IM<br/>
                     <Typed
                     strings={['VALTTERI', 'A PROGRAMMER']}
                     typeSpeed={50}
@@ -20,7 +20,7 @@ export default function HeroSection() {
                 </h1>
                 <div className={styles.hero_p_container}>
                     <p className={styles.hero_p}>
-                        Honestly I'm not sure what I'm focused on, so many cool things to build
+                        Honestly Im not sure what Im focused on, so many cool things to build
                     </p>
                 </div>
             </div>
