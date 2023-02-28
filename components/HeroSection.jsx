@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect } from 'react'
 import Lottie from "lottie-react-web"
-import animation from "../../../public/blocks_animation.json"
+import animation from "../public/blocks_animation.json"
 import Typed from 'react-typed';
 import styles from "../css/HeroSection.module.css"
 

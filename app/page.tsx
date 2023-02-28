@@ -1,11 +1,11 @@
 
-import HeroSection from './components/HeroSection'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
-import GithubCTA from './components/GithubCTA'
-import WorkHistory from './components/WorkHistory'
-import Recommendation from './components/Recommendation'
-import Socials from './components/Socials'
+import HeroSection from '../components/HeroSection'
+import Projects from '../components/Projects'
+import Skills from '../components/Skills'
+import GithubCTA from '../components/GithubCTA'
+import WorkHistory from '../components/WorkHistory'
+import Recommendation from '../components/Recommendation'
+import Socials from '../components/Socials'
 
 export default function Home() {
   return (
