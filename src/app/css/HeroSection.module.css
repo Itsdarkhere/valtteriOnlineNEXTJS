@@ -43,7 +43,7 @@
     font-size: 84px;
     line-height: 92px;
     font-weight: 400;
-    font-family: "Inconsolata";
+    font-family: var(--font-inter);
     margin-bottom: 15px;
 }
 .hero_p_container {
@@ -52,7 +52,7 @@
     text-align: left;
 }
 .hero_p {
-    font-family: "Inconsolata";
+    font-family: var(--font-inter);
     font-size: 24px;
     line-height: 38px;
     color: white;

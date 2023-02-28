@@ -1,6 +1,7 @@
 html {
   width: 100%;
   min-width: 100%;
+  font-family: var(--font-inter);
 }
 body {
   margin: 0;
@@ -11,9 +12,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #0e0e23;
   overflow-x: hidden;
+  font-family: var(--font-inter);
 }
 .font_one {
-  font-family: "Inconsolata";
+  font-family: var(--font-inter);
 }
 .cl {
   background: linear-gradient(270deg, rgba(117, 127, 154, 0.27) 0%, rgba(0, 0, 0, 0) 93.96%);
@@ -41,7 +43,7 @@ body {
   flex-direction: row;
   align-items: center;
   color: white;
-  font-family: "Inconsolata";
+  font-family: var(--font-inter);
 }
 .header_img {
   padding-right: 10px;
@@ -82,7 +84,7 @@ body {
   text-align: center;
 }
 .h2 {
-  font-family: "Inconsolata";
+  font-family: var(--font-inter);
   color: white;
   font-size: 35px;
   line-height: 45px;
@@ -90,7 +92,7 @@ body {
   margin-bottom: 15px;
 }
 .h3 {
-  font-family: "Inconsolata";
+  font-family: var(--font-inter);
   margin-top: 0px;
   margin-bottom: 15px;
   color: white;
@@ -100,7 +102,7 @@ body {
   text-decoration: none;
 }
 .p {
-  font-family: "Inconsolata";
+  font-family: var(--font-inter);
   margin-bottom: 10px;
   font-size: 18px;
   line-height: 30px;

@@ -40,7 +40,7 @@
     font-size: 24px;
     line-height: 26px;
     font-weight: 600;
-    font-family: "Inconsolata";
+    font-family: var(--font-inter);
 }
 .skills_animation {
     animation: intersectionAnimation 1s forwards;
