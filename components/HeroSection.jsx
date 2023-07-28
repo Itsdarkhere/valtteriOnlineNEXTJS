@@ -11,9 +11,9 @@ export default function HeroSection() {
         <div className='container_default'>
             <div className={styles.left_text}>
                 <h1 className={styles.hero_h}>
-                    IM<br/>
+                    Im<br/>
                     <Typed
-                    strings={['VALTTERI', 'A PROGRAMMER']}
+                    strings={['Valtteri', 'a programmer']}
                     typeSpeed={50}
                     loop
                 />
