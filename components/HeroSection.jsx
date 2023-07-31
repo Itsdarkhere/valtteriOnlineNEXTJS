@@ -20,7 +20,7 @@ export default function HeroSection() {
                 </h1>
                 <div className={styles.hero_p_container}>
                     <p className={styles.hero_p}>
-                        Honestly Im not sure what Im focused on, so many cool things to build
+                        Full stack developer, language agnostic & always learning.
                     </p>
                 </div>
             </div>

@@ -13,28 +13,28 @@ export default function Projects() {
             icon: <FaReact color='black' size="40" />,
         },
         {
+            title: "StagingAI",
+            description: "Fully featured webapp for stable diffusion inpainting. ",
+            link: "https://github.com/Itsdarkhere/StagingAI",
+            icon: <FaReact color='black' size="40" />
+        },
+        {
+            title: "ProxyAI",
+            description: "Charles proxy copycat in React Native, ongoing project.",
+            link: "https://github.com/Itsdarkhere/ProxyAI",
+            icon: <FaReact color='black' size="40" />
+        },
+        {
             title: "This website",
             description: "Source for this website",
             link: "https://github.com/Itsdarkhere/valtteri.online",
             icon: <FaCode color='black' size="40" />,
         },
         {
-            title: "Taxiapp, React Native",
-            description: "Wanted to try react native, so this is the frontend for a uber like app.",
-            link: "https://github.com/Itsdarkhere/TaxiApp_React_Native",
-            icon: <FaReact color='black' size="40" />
-        },
-        {
-            title: "Taxiapp, Rust backend",
-            description: "Small backend for login/signup/address save/lookup",
+            title: "Rust backend",
+            description: "Small Rust backend for a React Native app",
             link: "https://github.com/Itsdarkhere/Taxiapp_backend_rust",
             icon: <FaRust color='black' size="40" />
-        },
-        {
-            title: "Supernovas Next.js",
-            description: "Supernovas social media / marketplace in next.js ( incomplete )",
-            link: "https://github.com/Itsdarkhere/supernovasNext",
-            icon: <FaReact color='black' size="40" />
 
         },
         {
